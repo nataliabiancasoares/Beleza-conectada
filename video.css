@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 320px;
+    text-align: center;
+}
+
+h1 {
+    color: #d94a7a;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.imagem {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #d94a7a;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#mensagem {
+    margin-top: 15px;
+    color: #d94a7a;
+    font-weight: bold;
+}
+
+/* VÍDEO COMEÇA ESCONDIDO */
+#videoTutorial {
+    display: none;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.imagem {
+    width: 250px;
+    border-radius: 15px;
+    margin: 0 auto 15px auto; /* CENTRALIZA */
+    display: block;          /* NECESSÁRIO */
+}
+
+
+.container {
+    width: 320px;
+    text-align: center;
+}

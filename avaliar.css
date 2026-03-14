@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.stars span {
+    font-size: 32px;
+    color: #f2b705;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.stars span.ativa {
+    color: #f2b705;
+}
+
+p {
+    margin: 20px 0;
+    color: #555;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #d94a7a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.stars span {
+    font-size: 32px;
+    color: #ccc;   /* cinza */
+    cursor: pointer;
+}
+
+.stars span.ativa {
+    color: #f2b705; /* amarelo */
+}
+
+

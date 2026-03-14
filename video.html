@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aprenda a Fazer</title>
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Vídeo</h1>
+
+    <!-- IMAGEM DA TELA -->
+    <img src="imagem.jpg" class="imagem">
+
+    <h2>Aprenda a Fazer</h2>
+
+    <button onclick="baixar()">Download</button>
+
+    <p id="mensagem"></p>
+
+    <!-- VÍDEO ESCONDIDO -->
+    <video id="videoTutorial" width="260" controls>
+        <source src="cabelo.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+    </video>
+</div>
+
+<script src="video.js"></script>
+</body>
+</html>
+
